@@ -29,7 +29,8 @@ $(document).on('ready', function(){
             format: "json"  
           })
           .done(function (data) {
-            $("images").empty();
+            $("li.placeholder").hide();
+            $("#images").empty();
             $("h1.search-title").first()[0].innerHTML = "Search for: " + tags;
             $.each(data.items, function (i, item) {
               var newListItem = $("<li>");
@@ -42,7 +43,7 @@ $(document).on('ready', function(){
         //      Update the display to add the images to the list with the id #images
         //      `#images`.
             $(newListItem).appendTo("#images");
-            if (i === 5) {
+            if (i === 4) {
               return false;
             }   // if statement
          });  // .each statement   
@@ -62,6 +63,7 @@ $(document).on('ready', function(){
           // user.
           searchImages(searchTextInput.value);
         }); // search button
+  
     });  // ready      
 
     // STRETCH GOAL: Add a "more info" popup using the technique shown on the
