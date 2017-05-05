@@ -56,7 +56,7 @@ $(document).on('ready', function(){
     var button = $(event.relatedTarget); // Button that triggered the modal
     var title = button.data('title'); // Extract info from data-* attributes
     var imgSrc = button.data('imgsrc');
-    var imageDescription = button.data('description');
+    var imageDescription = button.date('description');
 
     // Update the modal's content. We'll use jQuery here.
     var modal = $(this);

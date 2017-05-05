@@ -27,7 +27,7 @@ ul#images {
     list-style-type: none;
 }
 
-ul#images .placeholder {
+ul#images.placeholder {
     font-size: 2em;
     font-weight: lighter;
     color: #666;
