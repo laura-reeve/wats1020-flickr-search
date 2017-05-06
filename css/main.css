@@ -20,7 +20,8 @@ ul#images li img {
     display: inline-block;
     width: 100%;
     height: auto;
-    margin: 10px;
+    margin: auto;
+    padding: 10px;
 }
 
 ul#images li button {
