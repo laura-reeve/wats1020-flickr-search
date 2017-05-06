@@ -1,10 +1,5 @@
-// Asynchronous Flickr Search
+// Asynchronous Flickr 
 //
-// Flickr reveals a searchable JSON Feed you can access via jQuery's $.getJSON()
-// method. Use this to allow users to search for a tag or comma-separated list
-// of tags and view the images that are found.
-//
-// Allow users to click the images to see a larger version with more information.
 $(document).on('ready', function() {
 
     // Create a function called `searchImages()`. This function will handle the
@@ -48,7 +43,7 @@ $(document).on('ready', function() {
               }).appendTo(newListItem);
               // update the display to add the images to the list with the id #images
             $(newListItem).appendTo("#images");
-            if (i === 4) {
+            if (i === 14) {
               return false;
             }   // if statement
          });  // .each statement   
