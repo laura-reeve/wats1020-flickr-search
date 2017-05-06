@@ -2,19 +2,25 @@
    Author's custom styles
    ========================================================================== */
 
-/* Enable these styles if you wish to go into a grid layout.
+/* Grid layout */
+
 ul#images li {
-    width: 120px;
+    width: auto;
     height: auto;
     display: inline-block;
     position: relative;
     float: left;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 
 ul#images li img {
     display: inline-block;
     width: 100%;
     height: auto;
+    margin: 10px;
 }
 
 ul#images li button {
