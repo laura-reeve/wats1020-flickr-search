@@ -35,7 +35,7 @@ $(document).on('ready', function() {
               var newDate = $("<p class='imageDate'>").html(item.date_taken).appendTo(newListItem);
               var newDescription = $("<p class='imageDesc'>").html(item.description).appendTo(newListItem);
               var newAuthor = $("<p class='imageAuthor'>").html(item.author).appendTo(newListItem);
-              var newLink = $("<a>").attr("href", item.link).text("View on Flickr").appendTo(newListItem);
+              var newLink = $("<a>").attr("href", item.link).text("View on Flickr  ").appendTo(newListItem);
               
               // modal button
               var newButton = $("<button class='btn btn-sm btn-primary'>Enlarge</button>").attr({
