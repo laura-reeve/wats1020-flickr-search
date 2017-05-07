@@ -2,7 +2,7 @@
    Author's custom styles
    ========================================================================== */
 
-/* Grid layout 
+/* Grid layout */
 
 ul#images li {
     width: auto;
@@ -28,7 +28,7 @@ ul#images li button {
     display: inline-block;
 }
 
- End of grid layout styles. */
+ /* End of grid layout styles. */
 
 ul#images {
     list-style-type: none;
