@@ -10,7 +10,7 @@ $(document).on('ready', function() {
 // Inside the `searchImages()` function, the following things should happen:
 // Accept a string value called `tags` as an argument. 
 // Define the location of the Flickr API `
-    var flickrAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+    var flickrAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?"; // the problem is here, can't get this URL to be unblocked
       console.log(tags);
       $("images").innerHTML = "<li class='search-throbber'>Searching...</li>";
 // Construct a `$.getJSON()` call where you send a request object
